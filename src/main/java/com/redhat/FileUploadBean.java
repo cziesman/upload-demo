@@ -9,8 +9,6 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 
 import javax.faces.application.FacesMessage;
-import javax.faces.bean.ManagedBean;
-import javax.faces.bean.SessionScoped;
 import javax.faces.context.FacesContext;
 
 import org.primefaces.model.file.UploadedFile;
@@ -18,8 +16,6 @@ import org.primefaces.shaded.commons.io.IOUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-@ManagedBean
-@SessionScoped
 public class FileUploadBean implements Serializable {
 
     private static final Logger LOG = LoggerFactory.getLogger(FileUploadBean.class);
