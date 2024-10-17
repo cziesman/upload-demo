@@ -37,4 +37,4 @@ Use the command line to add the new module to the EE subsystem.
     
     {"outcome" => "success"}
 
-Restart the EAP server and deployed the WAR file.
+Restart the EAP server and deploy the WAR file.
