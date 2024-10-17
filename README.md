@@ -6,7 +6,7 @@ Use the following command to generate the WAR file:
 
     mvn clean install
 
-The file `upload-demo` will be created in the `target` directory, and can be deployed to EAP from there.
+The file `upload-demo.war` will be created in the `target` directory, and can be deployed to EAP from there.
 
 # Adding a module for Primefaces
 
